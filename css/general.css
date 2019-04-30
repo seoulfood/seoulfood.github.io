@@ -1,7 +1,7 @@
 body {
         width: 100%;
 	height:100%;
-	color:##ffffffff;
+	color:#ffffff;
 	background-color:#F4F4F4;
 	overflow-x: hidden;
   	margin-top: 0px;
@@ -22,7 +22,8 @@ html{
     text-transform: uppercase;
     position: fixed;
     top: 0;
-    width: 100%;
+    height: 100%;
+    width: 150px;
 }
 .topnav a {
     display: inline-block;
