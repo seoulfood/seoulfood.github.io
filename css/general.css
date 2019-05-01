@@ -1,7 +1,7 @@
 body {
         width: 100%;
 	height:100%;
-	color:#ffffff;
+	color:#000000;
 	background-color:#F4F4F4;
 	overflow-x: hidden;
   	margin-top: 0px;
@@ -32,16 +32,18 @@ html{
     padding: 30px;
     text-decoration: none;
     font-size: 14px;
-    margin: 0px -3px;
+    margin: 0px 0px;
 }
 /* Change the color of links on hover */
 .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: #F9E6E5;
+    width: 90px;
     color: F4F4F4;
 }
 /* Add an active class to highlight the current page*/
 .active {
     background-color: #F9E6E5;
+    width: 90px;
     color: F4F4F4;
 }
 /* Hide the link that should open and close the topnav on small screens */
@@ -51,6 +53,10 @@ html{
 a{
   color: #373737;
 }
+
+.main{
+}
+
 .main-image {
 /*    background-image: url("../Files/Images/Wrinkles\ \(Extra\ Green\).jpg");*/
     text-align: center;
@@ -59,7 +65,7 @@ a{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 .main-image img {
     opacity: 1;
@@ -72,13 +78,13 @@ a{
     transform: translate(-50%, -50%);
 }
 .main-content {
-	width: 80%;
-	margin: 0 auto;
+	width: 100%;
+	margin-left: 75px;
 	background-color: white;
 }
 .main-content p {
         width: 90%;
-    	margin: 0 auto;
+	margin: 0 auto;
 }
 .row a{
      opacity: 1;
