@@ -65,6 +65,7 @@ html{
     float: right;
     display: block;
   }
+  div.main-image {display: none;}
   div.main-content {margin-left: 0;}
 }
 
